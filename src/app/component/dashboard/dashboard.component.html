@@ -1,0 +1,49 @@
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">URl Shortener</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:1100px">
+
+  <div class="w3-row w3-padding-64" id="about">
+    
+<div class="container">
+
+    <div class="row shadow mt-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="input-group mb-1 mt-1">
+                    <input type="text" class="form-control" placeholder="Enter URL " [(ngModel)] = "url" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" (click) = "generateShortUrl()" id="button-addon2">Generate</button>
+                  </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="row mt-3 shadow" *ngIf="isUrlGenerated || isErrorGenerated">
+        <div class="card">
+            <div class="card-body">
+               <div *ngIf="isErrorGenerated">
+                <div class="alert alert-danger" role="alert">
+                    Please enter valid url.
+                  </div>
+               </div>
+               <div *ngIf="isUrlGenerated">
+                    <p>Short URL : <a href="{{originalUrl}}" target="_blank">urlshortener/{{shortUrl}}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+  
+</div>
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Developed by <a href="https://github.com/rayanabonfanti" target="_blank" class="w3-hover-text-green">Rayana Ribeiro Bonfanti</a></p>
+</footer>
