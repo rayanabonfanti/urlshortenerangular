@@ -1,36 +1,36 @@
-# Projeto de Encurtador de URL
+# URL Shortener Project
 
-Este projeto, localizado na branch `main`, é uma demonstração de uma arquitetura de encurtador de URL desenvolvida em Angular, HTML, Bootstrap e Typescript. 
+This project, located in the `main` branch, is a demonstration of a URL shortener architecture developed using Angular, HTML, Bootstrap, and TypeScript.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Angular 13.2.0
 - NodeJs
 
-## Desenvolvimento no Servidor
+## Server Development
 
-Rodar `ng serve` para o desenvolvimento no servidor local. Navegar no browser: `http://localhost:4200/`. 
+Run `ng serve` for local server development. Navigate to `http://localhost:4200/` in your browser.
 
 ## Build
 
-Rodar o comando `ng build` para buildar o projeto. O artefato de construção irá ser construído no diretório `dist/`.
+Run the command `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## AWS - Site na Nuvem
+## AWS - Cloud Site
 
-Para acessar o site que foi feito deploy na nuvem pela AWS é só acessar o link: `http://urlshortenerangular.s3-website.us-east-2.amazonaws.com/`.
+To access the site deployed in the cloud via AWS, visit: `http://urlshortenerangular.s3-website.us-east-2.amazonaws.com/`.
 
-## Autores e Contribuidores
+## Authors and Contributors
 
 Rayana Ribeiro Bonfanti
 
-## Status do Projeto
+## Project Status
 
-Versão atual: 0.0.1
+Current version: 0.0.1
 
-## Contato
+## Contact
 
-Para mais informações, entre em contato com [rayanabonfanti@gmail.com].
+For more information, contact [rayanabonfanti@gmail.com].
 
-## Contribuições
+## Contributions
 
-Fique à vontade para contribuir para este projeto, seja adicionando recursos, corrigindo bugs ou aprimorando, assim que feito, pode abrir um pull request que irei analisar o código para uma possível branch ser adicionada com suas alterações. Sua contribuição é bem-vinda!
+Feel free to contribute to this project by adding features, fixing bugs, or improving it. Once done, you can open a pull request, and I will review the code for a potential branch to be added with your changes. Your contribution is welcome!
